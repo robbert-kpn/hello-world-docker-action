@@ -19,4 +19,4 @@ runs:
   image: Dockerfile
   env:
     INPUT_WHO_TO_GREET: ${{ inputs.who-to-greet }}
-    TIME: ${{outputs.time}}
+    TIME: ${{ outputs.time }}
